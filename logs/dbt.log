@@ -1,0 +1,30 @@
+[0m17:37:38.274963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158E498DD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158E7346800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158E7346A10>]}
+
+
+============================== 17:37:38.279017 | 18383c5d-6a9e-40a0-83bd-af2c45e9a279 ==============================
+[0m17:37:38.279017 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:37:38.280020 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init my_sqlserver_project', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:37:38.304616 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': WindowsPath('C:/Users/prash/.dbt')}
+[0m17:37:38.305621 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m17:37:38.309803 [debug] [MainThread]: Starter project path: C:\Users\prash\anaconda3\envs\dbtenv\lib\site-packages\dbt\include\starter_project
+[0m17:37:38.334084 [info ] [MainThread]: 
+Your new dbt project "my_sqlserver_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:37:38.335087 [info ] [MainThread]: Setting up your profile.
+[0m17:39:13.506577 [info ] [MainThread]: Profile my_sqlserver_project written to C:\Users\prash\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:39:13.508586 [debug] [MainThread]: Command `dbt init` succeeded at 17:39:13.507582 after 95.31 seconds
+[0m17:39:13.508586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158E498DD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158E714A170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000158E7346AD0>]}
+[0m17:39:13.509722 [debug] [MainThread]: Flushing usage events
