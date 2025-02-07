@@ -1,0 +1,1095 @@
+[0m17:41:31.631827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B07BDD20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B3176830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B3176A40>]}
+
+
+============================== 17:41:31.634919 | debee971-a998-4eb1-93c3-5eaaca3cb511 ==============================
+[0m17:41:31.634919 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:41:31.635987 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\prash\\Downloads\\newtest\\my_sqlserver_project\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:41:31.668184 [info ] [MainThread]: dbt version: 1.8.9
+[0m17:41:31.668184 [info ] [MainThread]: python version: 3.10.16
+[0m17:41:31.669212 [info ] [MainThread]: python path: C:\Users\prash\anaconda3\envs\dbtenv\python.exe
+[0m17:41:31.670215 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m17:41:32.106372 [info ] [MainThread]: Using profiles dir at C:\Users\prash\.dbt
+[0m17:41:32.107451 [info ] [MainThread]: Using profiles.yml file at C:\Users\prash\.dbt\profiles.yml
+[0m17:41:32.107451 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\prash\Downloads\newtest\my_sqlserver_project\dbt_project.yml
+[0m17:41:32.228044 [info ] [MainThread]: Configuration:
+[0m17:41:32.230129 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m17:41:32.230129 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:41:32.231131 [info ] [MainThread]: Required dependencies:
+[0m17:41:32.232380 [debug] [MainThread]: Executing "git --help"
+[0m17:41:32.240359 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m17:41:32.241356 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m17:41:32.242629 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:41:32.243664 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "my_sqlserver_project", target "dev" invalid: 'schema' is a required property
+
+
+[0m17:41:32.243664 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m17:41:32.245965 [debug] [MainThread]: Command `dbt debug` failed at 17:41:32.245965 after 0.71 seconds
+[0m17:41:32.245965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B07BDD20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B0F8CD30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B2F7BE20>]}
+[0m17:41:32.246968 [debug] [MainThread]: Flushing usage events
+[0m17:42:43.932019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DF590DD20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DF82C6890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DF82C6A70>]}
+
+
+============================== 17:42:43.936163 | 556cc29f-b896-4d88-88ad-7920470d56fe ==============================
+[0m17:42:43.936163 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:42:43.937166 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\prash\\Downloads\\newtest\\my_sqlserver_project\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:42:43.964951 [info ] [MainThread]: dbt version: 1.8.9
+[0m17:42:43.965948 [info ] [MainThread]: python version: 3.10.16
+[0m17:42:43.967307 [info ] [MainThread]: python path: C:\Users\prash\anaconda3\envs\dbtenv\python.exe
+[0m17:42:43.968409 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m17:42:44.332101 [info ] [MainThread]: Using profiles dir at C:\Users\prash\.dbt
+[0m17:42:44.333137 [info ] [MainThread]: Using profiles.yml file at C:\Users\prash\.dbt\profiles.yml
+[0m17:42:44.334141 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\prash\Downloads\newtest\my_sqlserver_project\dbt_project.yml
+[0m17:42:44.450971 [info ] [MainThread]: Configuration:
+[0m17:42:44.451979 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m17:42:44.451979 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:42:44.452984 [info ] [MainThread]: Required dependencies:
+[0m17:42:44.453990 [debug] [MainThread]: Executing "git --help"
+[0m17:42:44.463387 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m17:42:44.465427 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m17:42:44.466464 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:42:44.466464 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "my_sqlserver_project", target "dev" invalid: 'schema' is a required property
+
+
+[0m17:42:44.467508 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m17:42:44.468538 [debug] [MainThread]: Command `dbt debug` failed at 17:42:44.468538 after 0.62 seconds
+[0m17:42:44.469580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DF590DD20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DF60DCD30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DF80C7E20>]}
+[0m17:42:44.469580 [debug] [MainThread]: Flushing usage events
+[0m17:43:12.945790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029ACF83DD80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AD21F6830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AD21F6A10>]}
+
+
+============================== 17:43:12.949279 | 084140f6-bcad-4661-aa80-c22cfbd03179 ==============================
+[0m17:43:12.949279 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:43:12.950695 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\prash\\Downloads\\newtest\\my_sqlserver_project\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:43:12.969583 [info ] [MainThread]: dbt version: 1.8.9
+[0m17:43:12.969583 [info ] [MainThread]: python version: 3.10.16
+[0m17:43:12.970932 [info ] [MainThread]: python path: C:\Users\prash\anaconda3\envs\dbtenv\python.exe
+[0m17:43:12.970932 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m17:43:13.372622 [info ] [MainThread]: Using profiles dir at C:\Users\prash\.dbt
+[0m17:43:13.372622 [info ] [MainThread]: Using profiles.yml file at C:\Users\prash\.dbt\profiles.yml
+[0m17:43:13.373623 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\prash\Downloads\newtest\my_sqlserver_project\dbt_project.yml
+[0m17:43:13.374633 [info ] [MainThread]: adapter type: sqlserver
+[0m17:43:13.374633 [info ] [MainThread]: adapter version: 1.8.7
+[0m17:43:13.494843 [info ] [MainThread]: Configuration:
+[0m17:43:13.496013 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:43:13.496013 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:43:13.497068 [info ] [MainThread]: Required dependencies:
+[0m17:43:13.498220 [debug] [MainThread]: Executing "git --help"
+[0m17:43:13.505732 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m17:43:13.506657 [info ] [MainThread]: Connection:
+[0m17:43:13.507709 [info ] [MainThread]:   server: IMRAN\SQLEXPRESS
+[0m17:43:13.507709 [info ] [MainThread]:   database: AdventureWorks2014
+[0m17:43:13.508875 [info ] [MainThread]:   schema: dbo
+[0m17:43:13.509895 [info ] [MainThread]:   UID: IMRAN\imran
+[0m17:43:13.509895 [info ] [MainThread]:   client_id: None
+[0m17:43:13.510940 [info ] [MainThread]:   authentication: Windows Login
+[0m17:43:13.510940 [info ] [MainThread]:   encrypt: True
+[0m17:43:13.512385 [info ] [MainThread]:   trust_cert: True
+[0m17:43:13.512385 [info ] [MainThread]:   retries: 3
+[0m17:43:13.513565 [info ] [MainThread]:   login_timeout: 0
+[0m17:43:13.513565 [info ] [MainThread]:   query_timeout: 0
+[0m17:43:13.514830 [info ] [MainThread]:   trace_flag: False
+[0m17:43:13.514830 [info ] [MainThread]:   port: 1433
+[0m17:43:13.516067 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m17:43:13.789340 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m17:43:13.790710 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m17:43:13.790710 [debug] [MainThread]: On debug: select 1 as id
+[0m17:43:13.791707 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:43:13.791707 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m17:43:13.863247 [debug] [MainThread]: fabric adapter: Connected to db: AdventureWorks2014
+[0m17:43:13.864327 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m17:43:13.865751 [debug] [MainThread]: On debug: Close
+[0m17:43:13.866734 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:43:13.866734 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:43:13.868211 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m17:43:13.868211 [debug] [MainThread]: Command `dbt debug` failed at 17:43:13.868211 after 1.01 seconds
+[0m17:43:13.869666 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:43:13.869666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029ACF83DD80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029ACF555240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AD003BA00>]}
+[0m17:43:13.870663 [debug] [MainThread]: Flushing usage events
+[0m17:43:53.067556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA5E7ADCC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA611667D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA611669B0>]}
+
+
+============================== 17:43:53.072683 | f695ad70-584f-431e-ad84-b8a6b5078185 ==============================
+[0m17:43:53.072683 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:43:53.072683 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\prash\\Downloads\\newtest\\my_sqlserver_project\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m17:43:53.669462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f695ad70-584f-431e-ad84-b8a6b5078185', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA5EA3AB60>]}
+[0m17:43:53.736933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f695ad70-584f-431e-ad84-b8a6b5078185', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA61129270>]}
+[0m17:43:53.737971 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m17:43:54.053102 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m17:43:54.055251 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:43:54.056255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f695ad70-584f-431e-ad84-b8a6b5078185', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA61CB5270>]}
+[0m17:43:56.164387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f695ad70-584f-431e-ad84-b8a6b5078185', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA632B4F70>]}
+[0m17:43:56.314837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f695ad70-584f-431e-ad84-b8a6b5078185', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA63276620>]}
+[0m17:43:56.315839 [info ] [MainThread]: Found 2 models, 4 data tests, 502 macros
+[0m17:43:56.317271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f695ad70-584f-431e-ad84-b8a6b5078185', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA63276590>]}
+[0m17:43:56.319725 [info ] [MainThread]: 
+[0m17:43:56.320727 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m17:43:56.328004 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2014'
+[0m17:43:56.354753 [debug] [ThreadPool]: dbt-sqlserver
+[0m17:43:56.356825 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2014"
+[0m17:43:56.357851 [debug] [ThreadPool]: On list_AdventureWorks2014: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "connection_name": "list_AdventureWorks2014"} */
+USE [AdventureWorks2014];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m17:43:56.357851 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:43:56.359251 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m17:43:56.393461 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2014
+[0m17:43:56.396497 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:43:56.398508 [debug] [ThreadPool]: On list_AdventureWorks2014: Close
+[0m17:43:56.399515 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2014_dbo'
+[0m17:43:56.408593 [debug] [ThreadPool]: dbt-sqlserver
+[0m17:43:56.408593 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2014_dbo"
+[0m17:43:56.409644 [debug] [ThreadPool]: On list_AdventureWorks2014_dbo: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "connection_name": "list_AdventureWorks2014_dbo"} */
+USE [AdventureWorks2014];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'dbo'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m17:43:56.410703 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:43:56.411708 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m17:43:56.411708 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2014
+[0m17:43:56.449159 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:43:56.451538 [debug] [ThreadPool]: On list_AdventureWorks2014_dbo: ROLLBACK
+[0m17:43:56.452544 [debug] [ThreadPool]: On list_AdventureWorks2014_dbo: Close
+[0m17:43:56.454590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f695ad70-584f-431e-ad84-b8a6b5078185', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA6328F940>]}
+[0m17:43:56.454590 [debug] [MainThread]: On master: COMMIT
+[0m17:43:56.455626 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:43:56.456591 [info ] [MainThread]: 
+[0m17:43:56.460319 [debug] [Thread-1 (]: Began running node model.my_sqlserver_project.my_first_dbt_model
+[0m17:43:56.460319 [info ] [Thread-1 (]: 1 of 2 START sql table model dbo.my_first_dbt_model ............................ [RUN]
+[0m17:43:56.462593 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.my_sqlserver_project.my_first_dbt_model'
+[0m17:43:56.462593 [debug] [Thread-1 (]: Began compiling node model.my_sqlserver_project.my_first_dbt_model
+[0m17:43:56.476590 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_sqlserver_project.my_first_dbt_model"
+[0m17:43:56.478834 [debug] [Thread-1 (]: Began executing node model.my_sqlserver_project.my_first_dbt_model
+[0m17:43:56.597615 [debug] [Thread-1 (]: dbt-sqlserver
+[0m17:43:56.607012 [debug] [Thread-1 (]: Applying DROP to: "AdventureWorks2014"."dbo"."my_first_dbt_model__dbt_tmp__dbt_tmp_vw"
+[0m17:43:56.616377 [debug] [Thread-1 (]: dbt-sqlserver
+[0m17:43:56.617415 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m17:43:56.618418 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+
+        USE [AdventureWorks2014];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'AdventureWorks2014'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'my_first_dbt_model__dbt_tmp__dbt_tmp_vw'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m17:43:56.618418 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m17:43:56.619667 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m17:43:56.619667 [debug] [Thread-1 (]: fabric adapter: Connected to db: AdventureWorks2014
+[0m17:43:56.637375 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:43:56.639369 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m17:43:56.640367 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+
+      
+      
+    
+    USE [AdventureWorks2014];
+    EXEC('DROP view IF EXISTS "dbo"."my_first_dbt_model__dbt_tmp__dbt_tmp_vw";');
+
+[0m17:43:56.641616 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:43:56.658095 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_sqlserver_project.my_first_dbt_model"
+[0m17:43:56.660162 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m17:43:56.660162 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+
+  
+    USE [AdventureWorks2014];
+    USE [AdventureWorks2014];
+    
+    
+
+    
+
+    
+    USE [AdventureWorks2014];
+    EXEC('
+        create view "dbo"."my_first_dbt_model__dbt_tmp__dbt_tmp_vw" as /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null;
+    ')
+
+EXEC('
+            SELECT * INTO "AdventureWorks2014"."dbo"."my_first_dbt_model__dbt_tmp" FROM "AdventureWorks2014"."dbo"."my_first_dbt_model__dbt_tmp__dbt_tmp_vw" 
+    OPTION (LABEL = ''dbt-sqlserver'');
+
+        ')
+
+    
+    EXEC('DROP VIEW IF EXISTS dbo.my_first_dbt_model__dbt_tmp__dbt_tmp_vw')
+
+
+
+    
+    use [AdventureWorks2014];
+    if EXISTS (
+        SELECT *
+        FROM sys.indexes with (nolock)
+        WHERE name = 'dbo_my_first_dbt_model__dbt_tmp_cci'
+        AND object_id=object_id('dbo_my_first_dbt_model__dbt_tmp')
+    )
+    DROP index "dbo"."my_first_dbt_model__dbt_tmp".dbo_my_first_dbt_model__dbt_tmp_cci
+    CREATE CLUSTERED COLUMNSTORE INDEX dbo_my_first_dbt_model__dbt_tmp_cci
+    ON "dbo"."my_first_dbt_model__dbt_tmp"
+
+   
+
+
+  
+[0m17:43:56.684457 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:43:56.691785 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m17:43:56.692822 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+USE [AdventureWorks2014];
+      EXEC sp_rename 'dbo.my_first_dbt_model__dbt_tmp', 'my_first_dbt_model'
+[0m17:43:56.940192 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:43:56.964407 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: COMMIT
+[0m17:43:56.968901 [debug] [Thread-1 (]: Applying DROP to: "AdventureWorks2014"."dbo"."my_first_dbt_model__dbt_backup"
+[0m17:43:56.970996 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m17:43:56.970996 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+
+      
+    USE [AdventureWorks2014];
+    EXEC('DROP table IF EXISTS "dbo"."my_first_dbt_model__dbt_backup";');
+
+[0m17:43:56.973034 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:43:56.976097 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: Close
+[0m17:43:56.978158 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f695ad70-584f-431e-ad84-b8a6b5078185', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA633C59F0>]}
+[0m17:43:56.979175 [info ] [Thread-1 (]: 1 of 2 OK created sql table model dbo.my_first_dbt_model ....................... [[32mOK[0m in 0.51s]
+[0m17:43:56.980258 [debug] [Thread-1 (]: Finished running node model.my_sqlserver_project.my_first_dbt_model
+[0m17:43:56.981265 [debug] [Thread-1 (]: Began running node model.my_sqlserver_project.my_second_dbt_model
+[0m17:43:56.982262 [info ] [Thread-1 (]: 2 of 2 START sql view model dbo.my_second_dbt_model ............................ [RUN]
+[0m17:43:56.983260 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_sqlserver_project.my_first_dbt_model, now model.my_sqlserver_project.my_second_dbt_model)
+[0m17:43:56.983260 [debug] [Thread-1 (]: Began compiling node model.my_sqlserver_project.my_second_dbt_model
+[0m17:43:56.991617 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_sqlserver_project.my_second_dbt_model"
+[0m17:43:56.994604 [debug] [Thread-1 (]: Began executing node model.my_sqlserver_project.my_second_dbt_model
+[0m17:43:57.013074 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_sqlserver_project.my_second_dbt_model"
+[0m17:43:57.015111 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_second_dbt_model"
+[0m17:43:57.015111 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_second_dbt_model"} */
+USE [AdventureWorks2014];
+    
+    
+
+    
+
+    
+    USE [AdventureWorks2014];
+    EXEC('
+        create view "dbo"."my_second_dbt_model__dbt_tmp" as -- Use the `ref` function to select from other models
+
+select *
+from "AdventureWorks2014"."dbo"."my_first_dbt_model"
+where id = 1;
+    ')
+
+
+[0m17:43:57.016437 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:43:57.016437 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m17:43:57.017440 [debug] [Thread-1 (]: fabric adapter: Connected to db: AdventureWorks2014
+[0m17:43:57.022339 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:43:57.028608 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_second_dbt_model"
+[0m17:43:57.029643 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_second_dbt_model"} */
+USE [AdventureWorks2014];
+      EXEC sp_rename 'dbo.my_second_dbt_model__dbt_tmp', 'my_second_dbt_model'
+[0m17:43:57.031772 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:43:57.035386 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: COMMIT
+[0m17:43:57.039634 [debug] [Thread-1 (]: Applying DROP to: "AdventureWorks2014"."dbo"."my_second_dbt_model__dbt_backup"
+[0m17:43:57.041985 [debug] [Thread-1 (]: dbt-sqlserver
+[0m17:43:57.041985 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_second_dbt_model"
+[0m17:43:57.043023 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_second_dbt_model"} */
+
+        USE [AdventureWorks2014];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'AdventureWorks2014'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'my_second_dbt_model__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m17:43:57.056079 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:43:57.059620 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_second_dbt_model"
+[0m17:43:57.060623 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_second_dbt_model"} */
+
+      
+      
+    
+    USE [AdventureWorks2014];
+    EXEC('DROP view IF EXISTS "dbo"."my_second_dbt_model__dbt_backup";');
+
+[0m17:43:57.061620 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:43:57.065255 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: ROLLBACK
+[0m17:43:57.065255 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: Close
+[0m17:43:57.066265 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f695ad70-584f-431e-ad84-b8a6b5078185', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA633C62F0>]}
+[0m17:43:57.067295 [info ] [Thread-1 (]: 2 of 2 OK created sql view model dbo.my_second_dbt_model ....................... [[32mOK[0m in 0.08s]
+[0m17:43:57.068696 [debug] [Thread-1 (]: Finished running node model.my_sqlserver_project.my_second_dbt_model
+[0m17:43:57.069717 [debug] [MainThread]: On master: COMMIT
+[0m17:43:57.070958 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:43:57.070958 [debug] [MainThread]: Connection 'list_AdventureWorks2014' was properly closed.
+[0m17:43:57.072303 [debug] [MainThread]: Connection 'list_AdventureWorks2014_dbo' was properly closed.
+[0m17:43:57.072303 [debug] [MainThread]: Connection 'model.my_sqlserver_project.my_second_dbt_model' was properly closed.
+[0m17:43:57.072303 [info ] [MainThread]: 
+[0m17:43:57.073566 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 0.75 seconds (0.75s).
+[0m17:43:57.074775 [debug] [MainThread]: Command end result
+[0m17:43:57.120671 [info ] [MainThread]: 
+[0m17:43:57.122714 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:43:57.123715 [info ] [MainThread]: 
+[0m17:43:57.123715 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m17:43:57.126078 [debug] [MainThread]: Command `dbt run` succeeded at 17:43:57.126078 after 4.15 seconds
+[0m17:43:57.127330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA5E7ADCC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA62053220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA61C4D4B0>]}
+[0m17:43:57.127330 [debug] [MainThread]: Flushing usage events
+[0m12:59:17.837373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE1AA1CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE445A050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE445A230>]}
+
+
+============================== 12:59:17.842337 | f57c1474-8390-4fb2-9d1a-014b00a7a9aa ==============================
+[0m12:59:17.842337 [info ] [MainThread]: Running with dbt=1.8.9
+[0m12:59:17.842337 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'log_path': 'C:\\Users\\prash\\Downloads\\newtest\\my_sqlserver_project\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:59:17.862634 [info ] [MainThread]: dbt version: 1.8.9
+[0m12:59:17.863637 [info ] [MainThread]: python version: 3.10.16
+[0m12:59:17.864838 [info ] [MainThread]: python path: C:\Users\prash\anaconda3\envs\dbtenv\python.exe
+[0m12:59:17.866069 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m12:59:18.244677 [info ] [MainThread]: Using profiles dir at C:\Users\prash\.dbt
+[0m12:59:18.245119 [info ] [MainThread]: Using profiles.yml file at C:\Users\prash\.dbt\profiles.yml
+[0m12:59:18.246119 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\prash\Downloads\newtest\my_sqlserver_project\dbt_project.yml
+[0m12:59:18.247222 [info ] [MainThread]: adapter type: sqlserver
+[0m12:59:18.247222 [info ] [MainThread]: adapter version: 1.8.7
+[0m12:59:18.362809 [info ] [MainThread]: Configuration:
+[0m12:59:18.363888 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:59:18.364903 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:59:18.364903 [info ] [MainThread]: Required dependencies:
+[0m12:59:18.366179 [debug] [MainThread]: Executing "git --help"
+[0m12:59:18.387227 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:59:18.388297 [debug] [MainThread]: STDERR: "b''"
+[0m12:59:18.388297 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:59:18.389299 [info ] [MainThread]: Connection:
+[0m12:59:18.389299 [info ] [MainThread]:   server: IMRAN\SQLEXPRESS
+[0m12:59:18.390487 [info ] [MainThread]:   database: AdventureWorks2014
+[0m12:59:18.390487 [info ] [MainThread]:   schema: dbo
+[0m12:59:18.391683 [info ] [MainThread]:   UID: IMRAN\imran
+[0m12:59:18.391683 [info ] [MainThread]:   client_id: None
+[0m12:59:18.392738 [info ] [MainThread]:   authentication: Windows Login
+[0m12:59:18.392738 [info ] [MainThread]:   encrypt: True
+[0m12:59:18.393793 [info ] [MainThread]:   trust_cert: True
+[0m12:59:18.393793 [info ] [MainThread]:   retries: 3
+[0m12:59:18.394850 [info ] [MainThread]:   login_timeout: 0
+[0m12:59:18.396008 [info ] [MainThread]:   query_timeout: 0
+[0m12:59:18.396008 [info ] [MainThread]:   trace_flag: False
+[0m12:59:18.396008 [info ] [MainThread]:   port: 1433
+[0m12:59:18.398367 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m12:59:18.658369 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m12:59:18.658369 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m12:59:18.659368 [debug] [MainThread]: On debug: select 1 as id
+[0m12:59:18.659368 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:59:18.660365 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m12:59:18.712445 [debug] [MainThread]: fabric adapter: Connected to db: AdventureWorks2014
+[0m12:59:18.713438 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m12:59:18.714437 [debug] [MainThread]: On debug: Close
+[0m12:59:18.715435 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:59:18.716785 [info ] [MainThread]: [32mAll checks passed![0m
+[0m12:59:18.717919 [debug] [MainThread]: Command `dbt debug` succeeded at 12:59:18.717919 after 0.98 seconds
+[0m12:59:18.718955 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:59:18.718955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE1AA1CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE222FB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE2290220>]}
+[0m12:59:18.720174 [debug] [MainThread]: Flushing usage events
+[0m12:59:25.282506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E02841D80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E051C6830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E051C6A10>]}
+
+
+============================== 12:59:25.285749 | 06c0bb13-fa2c-4431-abfc-2bf938b45fe1 ==============================
+[0m12:59:25.285749 [info ] [MainThread]: Running with dbt=1.8.9
+[0m12:59:25.286753 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\prash\\Downloads\\newtest\\my_sqlserver_project\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:59:25.302604 [info ] [MainThread]: dbt version: 1.8.9
+[0m12:59:25.304009 [info ] [MainThread]: python version: 3.10.16
+[0m12:59:25.305016 [info ] [MainThread]: python path: C:\Users\prash\anaconda3\envs\dbtenv\python.exe
+[0m12:59:25.306013 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m12:59:25.694752 [info ] [MainThread]: Using profiles dir at C:\Users\prash\.dbt
+[0m12:59:25.696228 [info ] [MainThread]: Using profiles.yml file at C:\Users\prash\.dbt\profiles.yml
+[0m12:59:25.697238 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\prash\Downloads\newtest\my_sqlserver_project\dbt_project.yml
+[0m12:59:25.697238 [info ] [MainThread]: adapter type: sqlserver
+[0m12:59:25.698241 [info ] [MainThread]: adapter version: 1.8.7
+[0m12:59:25.813504 [info ] [MainThread]: Configuration:
+[0m12:59:25.814841 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:59:25.815347 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:59:25.816450 [info ] [MainThread]: Required dependencies:
+[0m12:59:25.816450 [debug] [MainThread]: Executing "git --help"
+[0m12:59:25.835586 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:59:25.835586 [debug] [MainThread]: STDERR: "b''"
+[0m12:59:25.836696 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:59:25.837698 [info ] [MainThread]: Connection:
+[0m12:59:25.837698 [info ] [MainThread]:   server: IMRAN\SQLEXPRESS
+[0m12:59:25.840103 [info ] [MainThread]:   database: AdventureWorks2014
+[0m12:59:25.841275 [info ] [MainThread]:   schema: dbo
+[0m12:59:25.842645 [info ] [MainThread]:   UID: IMRAN\imran
+[0m12:59:25.842645 [info ] [MainThread]:   client_id: None
+[0m12:59:25.845068 [info ] [MainThread]:   authentication: Windows Login
+[0m12:59:25.846152 [info ] [MainThread]:   encrypt: True
+[0m12:59:25.846152 [info ] [MainThread]:   trust_cert: True
+[0m12:59:25.847465 [info ] [MainThread]:   retries: 3
+[0m12:59:25.847465 [info ] [MainThread]:   login_timeout: 0
+[0m12:59:25.847465 [info ] [MainThread]:   query_timeout: 0
+[0m12:59:25.848887 [info ] [MainThread]:   trace_flag: False
+[0m12:59:25.849890 [info ] [MainThread]:   port: 1433
+[0m12:59:25.850888 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m12:59:26.108718 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m12:59:26.109715 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m12:59:26.109715 [debug] [MainThread]: On debug: select 1 as id
+[0m12:59:26.110712 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:59:26.110712 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m12:59:26.133082 [debug] [MainThread]: fabric adapter: Connected to db: AdventureWorks2014
+[0m12:59:26.134316 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m12:59:26.135577 [debug] [MainThread]: On debug: Close
+[0m12:59:26.135577 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:59:26.136574 [info ] [MainThread]: [32mAll checks passed![0m
+[0m12:59:26.137811 [debug] [MainThread]: Command `dbt debug` succeeded at 12:59:26.137811 after 0.94 seconds
+[0m12:59:26.137811 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:59:26.138814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E02841D80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E02FFD510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E02565240>]}
+[0m12:59:26.139816 [debug] [MainThread]: Flushing usage events
+[0m12:59:33.813950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025305461CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025307DE67D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025307DE69B0>]}
+
+
+============================== 12:59:33.818155 | 9a20bffc-7513-489e-867b-bfc430f3c4fb ==============================
+[0m12:59:33.818155 [info ] [MainThread]: Running with dbt=1.8.9
+[0m12:59:33.819561 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\prash\\Downloads\\newtest\\my_sqlserver_project\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:59:34.396219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9a20bffc-7513-489e-867b-bfc430f3c4fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253056EAB60>]}
+[0m12:59:34.463048 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9a20bffc-7513-489e-867b-bfc430f3c4fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025307DAD270>]}
+[0m12:59:34.465222 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m12:59:34.771499 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m12:59:35.065835 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:59:35.066843 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:59:35.123532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9a20bffc-7513-489e-867b-bfc430f3c4fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025309CF3E20>]}
+[0m12:59:35.262550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9a20bffc-7513-489e-867b-bfc430f3c4fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253089254E0>]}
+[0m12:59:35.263623 [info ] [MainThread]: Found 2 models, 4 data tests, 502 macros
+[0m12:59:35.264638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9a20bffc-7513-489e-867b-bfc430f3c4fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025307D75F00>]}
+[0m12:59:35.266666 [info ] [MainThread]: 
+[0m12:59:35.268980 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m12:59:35.275985 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2014'
+[0m12:59:35.299222 [debug] [ThreadPool]: dbt-sqlserver
+[0m12:59:35.300224 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2014"
+[0m12:59:35.301319 [debug] [ThreadPool]: On list_AdventureWorks2014: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "connection_name": "list_AdventureWorks2014"} */
+USE [AdventureWorks2014];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m12:59:35.301319 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:59:35.302638 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m12:59:35.336516 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2014
+[0m12:59:35.344174 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m12:59:35.345174 [debug] [ThreadPool]: On list_AdventureWorks2014: Close
+[0m12:59:35.346887 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2014_dbo'
+[0m12:59:35.398626 [debug] [ThreadPool]: dbt-sqlserver
+[0m12:59:35.399629 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2014_dbo"
+[0m12:59:35.399629 [debug] [ThreadPool]: On list_AdventureWorks2014_dbo: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "connection_name": "list_AdventureWorks2014_dbo"} */
+USE [AdventureWorks2014];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'dbo'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m12:59:35.400633 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:59:35.400633 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m12:59:35.401689 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2014
+[0m12:59:35.452940 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m12:59:35.454937 [debug] [ThreadPool]: On list_AdventureWorks2014_dbo: ROLLBACK
+[0m12:59:35.455949 [debug] [ThreadPool]: On list_AdventureWorks2014_dbo: Close
+[0m12:59:35.458090 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9a20bffc-7513-489e-867b-bfc430f3c4fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025309CFA500>]}
+[0m12:59:35.458090 [debug] [MainThread]: On master: COMMIT
+[0m12:59:35.459129 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:59:35.460313 [info ] [MainThread]: 
+[0m12:59:35.463870 [debug] [Thread-1 (]: Began running node model.my_sqlserver_project.my_first_dbt_model
+[0m12:59:35.464870 [info ] [Thread-1 (]: 1 of 2 START sql table model dbo.my_first_dbt_model ............................ [RUN]
+[0m12:59:35.464870 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.my_sqlserver_project.my_first_dbt_model'
+[0m12:59:35.466109 [debug] [Thread-1 (]: Began compiling node model.my_sqlserver_project.my_first_dbt_model
+[0m12:59:35.477706 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_sqlserver_project.my_first_dbt_model"
+[0m12:59:35.479017 [debug] [Thread-1 (]: Began executing node model.my_sqlserver_project.my_first_dbt_model
+[0m12:59:35.532518 [debug] [Thread-1 (]: dbt-sqlserver
+[0m12:59:35.541217 [debug] [Thread-1 (]: Applying DROP to: "AdventureWorks2014"."dbo"."my_first_dbt_model__dbt_tmp__dbt_tmp_vw"
+[0m12:59:35.549819 [debug] [Thread-1 (]: dbt-sqlserver
+[0m12:59:35.552065 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m12:59:35.553068 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+
+        USE [AdventureWorks2014];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'AdventureWorks2014'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'my_first_dbt_model__dbt_tmp__dbt_tmp_vw'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m12:59:35.553068 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:59:35.554070 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m12:59:35.554070 [debug] [Thread-1 (]: fabric adapter: Connected to db: AdventureWorks2014
+[0m12:59:35.576165 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:35.579270 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m12:59:35.580271 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+
+      
+      
+    
+    USE [AdventureWorks2014];
+    EXEC('DROP view IF EXISTS "dbo"."my_first_dbt_model__dbt_tmp__dbt_tmp_vw";');
+
+[0m12:59:35.583681 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:35.601474 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_sqlserver_project.my_first_dbt_model"
+[0m12:59:35.603480 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m12:59:35.604494 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+
+  
+    USE [AdventureWorks2014];
+    USE [AdventureWorks2014];
+    
+    
+
+    
+
+    
+    USE [AdventureWorks2014];
+    EXEC('
+        create view "dbo"."my_first_dbt_model__dbt_tmp__dbt_tmp_vw" as /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null;
+    ')
+
+EXEC('
+            SELECT * INTO "AdventureWorks2014"."dbo"."my_first_dbt_model__dbt_tmp" FROM "AdventureWorks2014"."dbo"."my_first_dbt_model__dbt_tmp__dbt_tmp_vw" 
+    OPTION (LABEL = ''dbt-sqlserver'');
+
+        ')
+
+    
+    EXEC('DROP VIEW IF EXISTS dbo.my_first_dbt_model__dbt_tmp__dbt_tmp_vw')
+
+
+
+    
+    use [AdventureWorks2014];
+    if EXISTS (
+        SELECT *
+        FROM sys.indexes with (nolock)
+        WHERE name = 'dbo_my_first_dbt_model__dbt_tmp_cci'
+        AND object_id=object_id('dbo_my_first_dbt_model__dbt_tmp')
+    )
+    DROP index "dbo"."my_first_dbt_model__dbt_tmp".dbo_my_first_dbt_model__dbt_tmp_cci
+    CREATE CLUSTERED COLUMNSTORE INDEX dbo_my_first_dbt_model__dbt_tmp_cci
+    ON "dbo"."my_first_dbt_model__dbt_tmp"
+
+   
+
+
+  
+[0m12:59:35.672117 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:35.680097 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m12:59:35.680097 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+USE [AdventureWorks2014];
+      EXEC sp_rename 'dbo.my_first_dbt_model', 'my_first_dbt_model__dbt_backup'
+[0m12:59:35.906739 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:35.912235 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m12:59:35.912235 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+USE [AdventureWorks2014];
+      EXEC sp_rename 'dbo.my_first_dbt_model__dbt_tmp', 'my_first_dbt_model'
+[0m12:59:35.915120 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:35.940475 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: COMMIT
+[0m12:59:35.943703 [debug] [Thread-1 (]: Applying DROP to: "AdventureWorks2014"."dbo"."my_first_dbt_model__dbt_backup"
+[0m12:59:35.944703 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_first_dbt_model"
+[0m12:59:35.946181 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_first_dbt_model"} */
+
+      
+    USE [AdventureWorks2014];
+    EXEC('DROP table IF EXISTS "dbo"."my_first_dbt_model__dbt_backup";');
+
+[0m12:59:35.950737 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:35.954068 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_first_dbt_model: Close
+[0m12:59:35.956194 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9a20bffc-7513-489e-867b-bfc430f3c4fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253041D6110>]}
+[0m12:59:35.957229 [info ] [Thread-1 (]: 1 of 2 OK created sql table model dbo.my_first_dbt_model ....................... [[32mOK[0m in 0.49s]
+[0m12:59:35.957651 [debug] [Thread-1 (]: Finished running node model.my_sqlserver_project.my_first_dbt_model
+[0m12:59:35.958683 [debug] [Thread-1 (]: Began running node model.my_sqlserver_project.my_second_dbt_model
+[0m12:59:35.959955 [info ] [Thread-1 (]: 2 of 2 START sql view model dbo.my_second_dbt_model ............................ [RUN]
+[0m12:59:35.959955 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_sqlserver_project.my_first_dbt_model, now model.my_sqlserver_project.my_second_dbt_model)
+[0m12:59:35.961254 [debug] [Thread-1 (]: Began compiling node model.my_sqlserver_project.my_second_dbt_model
+[0m12:59:35.964557 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_sqlserver_project.my_second_dbt_model"
+[0m12:59:35.965804 [debug] [Thread-1 (]: Began executing node model.my_sqlserver_project.my_second_dbt_model
+[0m12:59:35.986441 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_sqlserver_project.my_second_dbt_model"
+[0m12:59:35.987481 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_second_dbt_model"
+[0m12:59:35.988657 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_second_dbt_model"} */
+USE [AdventureWorks2014];
+    
+    
+
+    
+
+    
+    USE [AdventureWorks2014];
+    EXEC('
+        create view "dbo"."my_second_dbt_model__dbt_tmp" as -- Use the `ref` function to select from other models
+
+select *
+from "AdventureWorks2014"."dbo"."my_first_dbt_model"
+where id = 1;
+    ')
+
+
+[0m12:59:35.989660 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m12:59:35.989660 [debug] [Thread-1 (]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m12:59:35.990664 [debug] [Thread-1 (]: fabric adapter: Connected to db: AdventureWorks2014
+[0m12:59:35.993700 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:35.998689 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_second_dbt_model"
+[0m12:59:35.999686 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_second_dbt_model"} */
+USE [AdventureWorks2014];
+      EXEC sp_rename 'dbo.my_second_dbt_model', 'my_second_dbt_model__dbt_backup'
+[0m12:59:36.006258 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:36.012797 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_second_dbt_model"
+[0m12:59:36.012797 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_second_dbt_model"} */
+USE [AdventureWorks2014];
+      EXEC sp_rename 'dbo.my_second_dbt_model__dbt_tmp', 'my_second_dbt_model'
+[0m12:59:36.016019 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:36.020007 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: COMMIT
+[0m12:59:36.024002 [debug] [Thread-1 (]: Applying DROP to: "AdventureWorks2014"."dbo"."my_second_dbt_model__dbt_backup"
+[0m12:59:36.025992 [debug] [Thread-1 (]: dbt-sqlserver
+[0m12:59:36.026996 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_second_dbt_model"
+[0m12:59:36.027986 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_second_dbt_model"} */
+
+        USE [AdventureWorks2014];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'AdventureWorks2014'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'my_second_dbt_model__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m12:59:36.038012 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:36.040121 [debug] [Thread-1 (]: Using sqlserver connection "model.my_sqlserver_project.my_second_dbt_model"
+[0m12:59:36.041118 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "node_id": "model.my_sqlserver_project.my_second_dbt_model"} */
+
+      
+      
+    
+    USE [AdventureWorks2014];
+    EXEC('DROP view IF EXISTS "dbo"."my_second_dbt_model__dbt_backup";');
+
+[0m12:59:36.042978 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m12:59:36.044010 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: ROLLBACK
+[0m12:59:36.045030 [debug] [Thread-1 (]: On model.my_sqlserver_project.my_second_dbt_model: Close
+[0m12:59:36.045030 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9a20bffc-7513-489e-867b-bfc430f3c4fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025309DFE680>]}
+[0m12:59:36.046087 [info ] [Thread-1 (]: 2 of 2 OK created sql view model dbo.my_second_dbt_model ....................... [[32mOK[0m in 0.09s]
+[0m12:59:36.047202 [debug] [Thread-1 (]: Finished running node model.my_sqlserver_project.my_second_dbt_model
+[0m12:59:36.049377 [debug] [MainThread]: On master: COMMIT
+[0m12:59:36.050456 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:59:36.050456 [debug] [MainThread]: Connection 'list_AdventureWorks2014' was properly closed.
+[0m12:59:36.051476 [debug] [MainThread]: Connection 'list_AdventureWorks2014_dbo' was properly closed.
+[0m12:59:36.051476 [debug] [MainThread]: Connection 'model.my_sqlserver_project.my_second_dbt_model' was properly closed.
+[0m12:59:36.052481 [info ] [MainThread]: 
+[0m12:59:36.053483 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 0.78 seconds (0.78s).
+[0m12:59:36.054794 [debug] [MainThread]: Command end result
+[0m12:59:36.097846 [info ] [MainThread]: 
+[0m12:59:36.100257 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:59:36.101519 [info ] [MainThread]: 
+[0m12:59:36.102525 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m12:59:36.104725 [debug] [MainThread]: Command `dbt run` succeeded at 12:59:36.103651 after 2.38 seconds
+[0m12:59:36.104725 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025305461CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025307DAD270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025308924850>]}
+[0m12:59:36.105728 [debug] [MainThread]: Flushing usage events
+[0m13:00:27.700955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002020EFF1D80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202119862F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020211986110>]}
+
+
+============================== 13:00:27.705860 | c8362471-45a3-48d2-a95e-723d2f1fb565 ==============================
+[0m13:00:27.705860 [info ] [MainThread]: Running with dbt=1.8.9
+[0m13:00:27.706873 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\prash\\Downloads\\newtest\\my_sqlserver_project\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:00:28.226899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c8362471-45a3-48d2-a95e-723d2f1fb565', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020212360550>]}
+[0m13:00:28.289401 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c8362471-45a3-48d2-a95e-723d2f1fb565', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202117CE0B0>]}
+[0m13:00:28.290442 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m13:00:28.547067 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m13:00:28.790212 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:00:28.790212 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:00:28.845098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c8362471-45a3-48d2-a95e-723d2f1fb565', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202138BBE50>]}
+[0m13:00:28.868955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c8362471-45a3-48d2-a95e-723d2f1fb565', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020213867100>]}
+[0m13:00:28.870181 [info ] [MainThread]: Found 2 models, 4 data tests, 502 macros
+[0m13:00:28.870181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c8362471-45a3-48d2-a95e-723d2f1fb565', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202138642E0>]}
+[0m13:00:28.872287 [info ] [MainThread]: 
+[0m13:00:28.873287 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m13:00:28.880001 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_AdventureWorks2014_dbo'
+[0m13:00:28.909272 [debug] [ThreadPool]: dbt-sqlserver
+[0m13:00:28.909272 [debug] [ThreadPool]: Using sqlserver connection "list_AdventureWorks2014_dbo"
+[0m13:00:28.910307 [debug] [ThreadPool]: On list_AdventureWorks2014_dbo: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "connection_name": "list_AdventureWorks2014_dbo"} */
+USE [AdventureWorks2014];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'dbo'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m13:00:28.910307 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:00:28.911674 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m13:00:28.969592 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2014
+[0m13:00:29.009962 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m13:00:29.010962 [debug] [ThreadPool]: On list_AdventureWorks2014_dbo: ROLLBACK
+[0m13:00:29.011959 [debug] [ThreadPool]: On list_AdventureWorks2014_dbo: Close
+[0m13:00:29.013832 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c8362471-45a3-48d2-a95e-723d2f1fb565', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020213866890>]}
+[0m13:00:29.013832 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:00:29.015212 [info ] [MainThread]: 
+[0m13:00:29.018693 [debug] [Thread-1 (]: Began running node model.my_sqlserver_project.my_first_dbt_model
+[0m13:00:29.019771 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.my_sqlserver_project.my_first_dbt_model'
+[0m13:00:29.019771 [debug] [Thread-1 (]: Began compiling node model.my_sqlserver_project.my_first_dbt_model
+[0m13:00:29.031309 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_sqlserver_project.my_first_dbt_model"
+[0m13:00:29.032312 [debug] [Thread-1 (]: Began executing node model.my_sqlserver_project.my_first_dbt_model
+[0m13:00:29.033316 [debug] [Thread-1 (]: Finished running node model.my_sqlserver_project.my_first_dbt_model
+[0m13:00:29.034323 [debug] [Thread-1 (]: Began running node model.my_sqlserver_project.my_second_dbt_model
+[0m13:00:29.035466 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_sqlserver_project.my_first_dbt_model, now model.my_sqlserver_project.my_second_dbt_model)
+[0m13:00:29.036513 [debug] [Thread-1 (]: Began compiling node model.my_sqlserver_project.my_second_dbt_model
+[0m13:00:29.040694 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_sqlserver_project.my_second_dbt_model"
+[0m13:00:29.041697 [debug] [Thread-1 (]: Began executing node model.my_sqlserver_project.my_second_dbt_model
+[0m13:00:29.042905 [debug] [Thread-1 (]: Finished running node model.my_sqlserver_project.my_second_dbt_model
+[0m13:00:29.043909 [debug] [Thread-1 (]: Began running node test.my_sqlserver_project.not_null_my_first_dbt_model_id.5fb22c2710
+[0m13:00:29.044914 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.my_sqlserver_project.my_second_dbt_model, now test.my_sqlserver_project.not_null_my_first_dbt_model_id.5fb22c2710)
+[0m13:00:29.044914 [debug] [Thread-1 (]: Began compiling node test.my_sqlserver_project.not_null_my_first_dbt_model_id.5fb22c2710
+[0m13:00:29.060706 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_sqlserver_project.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m13:00:29.061744 [debug] [Thread-1 (]: Began executing node test.my_sqlserver_project.not_null_my_first_dbt_model_id.5fb22c2710
+[0m13:00:29.063194 [debug] [Thread-1 (]: Finished running node test.my_sqlserver_project.not_null_my_first_dbt_model_id.5fb22c2710
+[0m13:00:29.064196 [debug] [Thread-1 (]: Began running node test.my_sqlserver_project.unique_my_first_dbt_model_id.16e066b321
+[0m13:00:29.064196 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_sqlserver_project.not_null_my_first_dbt_model_id.5fb22c2710, now test.my_sqlserver_project.unique_my_first_dbt_model_id.16e066b321)
+[0m13:00:29.065315 [debug] [Thread-1 (]: Began compiling node test.my_sqlserver_project.unique_my_first_dbt_model_id.16e066b321
+[0m13:00:29.073887 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_sqlserver_project.unique_my_first_dbt_model_id.16e066b321"
+[0m13:00:29.076082 [debug] [Thread-1 (]: Began executing node test.my_sqlserver_project.unique_my_first_dbt_model_id.16e066b321
+[0m13:00:29.077083 [debug] [Thread-1 (]: Finished running node test.my_sqlserver_project.unique_my_first_dbt_model_id.16e066b321
+[0m13:00:29.077083 [debug] [Thread-1 (]: Began running node test.my_sqlserver_project.not_null_my_second_dbt_model_id.151b76d778
+[0m13:00:29.078190 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_sqlserver_project.unique_my_first_dbt_model_id.16e066b321, now test.my_sqlserver_project.not_null_my_second_dbt_model_id.151b76d778)
+[0m13:00:29.078190 [debug] [Thread-1 (]: Began compiling node test.my_sqlserver_project.not_null_my_second_dbt_model_id.151b76d778
+[0m13:00:29.083178 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_sqlserver_project.not_null_my_second_dbt_model_id.151b76d778"
+[0m13:00:29.085320 [debug] [Thread-1 (]: Began executing node test.my_sqlserver_project.not_null_my_second_dbt_model_id.151b76d778
+[0m13:00:29.087316 [debug] [Thread-1 (]: Finished running node test.my_sqlserver_project.not_null_my_second_dbt_model_id.151b76d778
+[0m13:00:29.087316 [debug] [Thread-1 (]: Began running node test.my_sqlserver_project.unique_my_second_dbt_model_id.57a0f8c493
+[0m13:00:29.089369 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.my_sqlserver_project.not_null_my_second_dbt_model_id.151b76d778, now test.my_sqlserver_project.unique_my_second_dbt_model_id.57a0f8c493)
+[0m13:00:29.089369 [debug] [Thread-1 (]: Began compiling node test.my_sqlserver_project.unique_my_second_dbt_model_id.57a0f8c493
+[0m13:00:29.095580 [debug] [Thread-1 (]: Writing injected SQL for node "test.my_sqlserver_project.unique_my_second_dbt_model_id.57a0f8c493"
+[0m13:00:29.096615 [debug] [Thread-1 (]: Began executing node test.my_sqlserver_project.unique_my_second_dbt_model_id.57a0f8c493
+[0m13:00:29.097616 [debug] [Thread-1 (]: Finished running node test.my_sqlserver_project.unique_my_second_dbt_model_id.57a0f8c493
+[0m13:00:29.098614 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:00:29.099975 [debug] [MainThread]: Connection 'list_AdventureWorks2014_dbo' was properly closed.
+[0m13:00:29.099975 [debug] [MainThread]: Connection 'test.my_sqlserver_project.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m13:00:29.102206 [debug] [MainThread]: Command end result
+[0m13:00:29.258011 [debug] [MainThread]: Acquiring new sqlserver connection 'generate_catalog'
+[0m13:00:29.259048 [info ] [MainThread]: Building catalog
+[0m13:00:29.271342 [debug] [ThreadPool]: Acquiring new sqlserver connection 'AdventureWorks2014.information_schema'
+[0m13:00:29.283290 [debug] [ThreadPool]: dbt-sqlserver
+[0m13:00:29.284325 [debug] [ThreadPool]: Using sqlserver connection "AdventureWorks2014.information_schema"
+[0m13:00:29.285327 [debug] [ThreadPool]: On AdventureWorks2014.information_schema: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "my_sqlserver_project", "target_name": "dev", "connection_name": "AdventureWorks2014.information_schema"} */
+with
+    principals as (
+        select
+            name as principal_name,
+            principal_id as principal_id
+        from
+            sys.database_principals with (nolock)
+    ),
+
+    schemas as (
+        select
+            name as schema_name,
+            schema_id as schema_id,
+            principal_id as principal_id
+        from
+            sys.schemas with (nolock)
+    ),
+
+    tables as (
+        select
+            object_id,
+            name as table_name,
+            schema_id as schema_id,
+            principal_id as principal_id,
+            'BASE TABLE' as table_type
+        from
+            sys.tables with (nolock)
+    ),
+
+    tables_with_metadata as (
+        select
+            object_id,
+            table_name,
+            schema_name,
+            coalesce(tables.principal_id, schemas.principal_id) as owner_principal_id,
+            table_type
+        from
+            tables
+        join schemas on tables.schema_id = schemas.schema_id
+    ),
+
+    views as (
+        select
+            object_id,
+            name as table_name,
+            schema_id as schema_id,
+            principal_id as principal_id,
+            'VIEW' as table_type
+        from
+            sys.views with (nolock)
+    ),
+
+    views_with_metadata as (
+        select
+            object_id,
+            table_name,
+            schema_name,
+            coalesce(views.principal_id, schemas.principal_id) as owner_principal_id,
+            table_type
+        from
+            views
+        join schemas on views.schema_id = schemas.schema_id
+    ),
+
+    tables_and_views as (
+        select
+            object_id,
+            table_name,
+            schema_name,
+            principal_name,
+            table_type
+        from
+            tables_with_metadata
+        join principals on tables_with_metadata.owner_principal_id = principals.principal_id
+        union all
+        select
+            object_id,
+            table_name,
+            schema_name,
+            principal_name,
+            table_type
+        from
+            views_with_metadata
+        join principals on views_with_metadata.owner_principal_id = principals.principal_id
+    ),
+
+    cols as (
+
+        select
+            c.object_id,
+            c.name as column_name,
+            c.column_id as column_index,
+            t.name as column_type
+        from sys.columns as c with (nolock)
+        left join sys.types as t on c.system_type_id = t.system_type_id
+    )
+
+    select
+        DB_NAME() as table_database,
+        tv.schema_name as table_schema,
+        tv.table_name,
+        tv.table_type,
+        null as table_comment,
+        tv.principal_name as table_owner,
+        cols.column_name,
+        cols.column_index,
+        cols.column_type,
+        null as column_comment
+    from tables_and_views tv
+    join cols on tv.object_id = cols.object_id
+    where (
+                (
+                    upper(tv.schema_name) = upper('dbo')
+                    and upper(tv.table_name) = upper('my_first_dbt_model')
+                )
+             or 
+                (
+                    upper(tv.schema_name) = upper('dbo')
+                    and upper(tv.table_name) = upper('my_second_dbt_model')
+                )
+            )
+
+    order by column_index
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+[0m13:00:29.286324 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:00:29.286324 [debug] [ThreadPool]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=IMRAN\SQLEXPRESS;Database=AdventureWorks2014;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.8.9;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m13:00:29.287321 [debug] [ThreadPool]: fabric adapter: Connected to db: AdventureWorks2014
+[0m13:00:29.378117 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m13:00:29.383106 [debug] [ThreadPool]: On AdventureWorks2014.information_schema: ROLLBACK
+[0m13:00:29.383106 [debug] [ThreadPool]: On AdventureWorks2014.information_schema: Close
+[0m13:00:29.427084 [info ] [MainThread]: Catalog written to C:\Users\prash\Downloads\newtest\my_sqlserver_project\target\catalog.json
+[0m13:00:29.429245 [debug] [MainThread]: Command `dbt docs generate` succeeded at 13:00:29.428083 after 1.81 seconds
+[0m13:00:29.429245 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m13:00:29.430410 [debug] [MainThread]: Connection 'AdventureWorks2014.information_schema' was properly closed.
+[0m13:00:29.430410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002020EFF1D80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002020F3FCC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002021390D210>]}
+[0m13:00:29.431449 [debug] [MainThread]: Flushing usage events
+[0m13:01:12.783131 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B599231D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B59BBB6710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B59BBB68F0>]}
+
+
+============================== 13:01:12.787872 | bd148c85-8aa6-4e7c-9643-cafaa2358fb6 ==============================
+[0m13:01:12.787872 [info ] [MainThread]: Running with dbt=1.8.9
+[0m13:01:12.789086 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\prash\\Downloads\\newtest\\my_sqlserver_project\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\prash\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt docs serve', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:01:13.310107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bd148c85-8aa6-4e7c-9643-cafaa2358fb6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B59C68AF50>]}
+[0m13:01:13.376364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bd148c85-8aa6-4e7c-9643-cafaa2358fb6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B59BB81330>]}
+[0m13:01:26.241967 [error] [MainThread]: Encountered an error:
+
+[0m13:01:26.246956 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\site-packages\dbt\cli\requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\site-packages\dbt\cli\requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\site-packages\dbt\cli\requires.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\site-packages\dbt\cli\requires.py", line 247, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\site-packages\dbt\cli\requires.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\site-packages\dbt\cli\main.py", line 303, in docs_serve
+    results = task.run()
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\site-packages\dbt\task\docs\serve.py", line 29, in run
+    httpd.serve_forever()
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\selectors.py", line 324, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\prash\anaconda3\envs\dbtenv\lib\selectors.py", line 315, in _select
+    r, w, x = select.select(r, w, w, timeout)
+KeyboardInterrupt
+
+[0m13:01:26.249500 [debug] [MainThread]: Command `dbt docs serve` failed at 13:01:26.249500 after 13.54 seconds
+[0m13:01:26.250536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B599231D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B59C779E40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B59C779F30>]}
+[0m13:01:26.250536 [debug] [MainThread]: Flushing usage events
